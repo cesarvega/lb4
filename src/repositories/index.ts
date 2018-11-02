@@ -5,3 +5,4 @@ export * from './users.repository';
 export * from './profile.repository';
 export * from './payment.repository';
 export * from './schedule.repository';
+export * from './subscription.repository';

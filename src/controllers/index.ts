@@ -6,3 +6,4 @@ export * from './users.controller';
 export * from './profile.controller';
 export * from './payment.controller';
 export * from './schedule.controller';
+export * from './subscription.controller';
