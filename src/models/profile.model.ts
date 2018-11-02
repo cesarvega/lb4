@@ -1,12 +1,7 @@
-import {Entity, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
 @model()
 export class Profile extends Entity {
-  @property({
-    type: 'string',
-  })
-  ID?: string;
-
   @property({
     type: 'string',
     id: true,
