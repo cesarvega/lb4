@@ -1,13 +1,12 @@
-import {Entity, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
 @model()
 export class Inventory extends Entity {
   @property({
     type: 'number',
-    id: true,
-    required: true,
+    id: true
   })
-  id: number;
+  id?: number;
 
   @property({
     type: 'date',

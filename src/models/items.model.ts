@@ -1,7 +1,13 @@
-import {Entity, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
 @model()
 export class Items extends Entity {
+  @property({
+    type: 'number',
+    id: true,
+  })
+  id?: number;
+
   @property({
     type: 'string',
     required: true,
@@ -19,11 +25,6 @@ export class Items extends Entity {
   })
   price: number;
 
-  @property({
-    type: 'number',
-    id: true,
-  })
-  id?: number;
 
   constructor(data?: Partial<Items>) {
     super(data);

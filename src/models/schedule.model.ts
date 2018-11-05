@@ -4,9 +4,9 @@ import { Entity, model, property } from '@loopback/repository';
 export class Schedule extends Entity {
   @property({
     type: 'string',
-    id: true,
+    id: true
   })
-  id: string;
+  id?: string;
 
   @property({
     type: 'string',

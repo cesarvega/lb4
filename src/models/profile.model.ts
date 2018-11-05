@@ -4,7 +4,7 @@ import { Entity, model, property } from '@loopback/repository';
 export class Profile extends Entity {
   @property({
     type: 'string',
-    id: true,
+    id: true
   })
   id?: string;
 
