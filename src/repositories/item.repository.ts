@@ -5,11 +5,12 @@ import { inject } from '@loopback/core';
 
 export class ItemRepository extends DefaultCrudRepository<
   Items,
-  typeof Items.prototype.price
+  typeof Items.prototype.id
   > {
   constructor(
     @inject('datasources.db') dataSource: DbDataSource,
   ) {
+
     super(Items, dataSource);
   }
 }
