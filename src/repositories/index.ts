@@ -6,3 +6,4 @@ export * from './profile.repository';
 export * from './payment.repository';
 export * from './schedule.repository';
 export * from './subscription.repository';
+export * from './form-fields.repository';
