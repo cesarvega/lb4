@@ -6,7 +6,7 @@ export class Payment extends Entity {
     type: 'string',
     id: true
   })
-  id: string;
+  id?: string;
 
   @property({
     type: 'string',

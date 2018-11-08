@@ -6,3 +6,4 @@ export * from './profile.model';
 export * from './payment.model';
 export * from './schedule.model';
 export * from './subscription.model';
+export * from './form-fields.model';
