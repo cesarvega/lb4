@@ -12,6 +12,12 @@ export class Users extends Entity {
     type: 'string',
     required: true,
   })
+  fullname: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
   password: string;
 
   @property({
